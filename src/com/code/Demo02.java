@@ -13,7 +13,7 @@ public class Demo02 {
 		
 		byte[] buffer = new byte[20 * 1024];
 		int cnt;
-	
+		int a = 1;
 		// read() 最多读取 buffer.length 个字节
 	    // 返回的是实际读取的个数
 		while((cnt = in.read(buffer, 0, buffer.length)) != -1){  // 返回 -1 的时候表示读到 eof，即文件尾
